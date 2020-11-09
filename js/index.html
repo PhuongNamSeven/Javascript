@@ -1,0 +1,96 @@
+<script>
+    // khai bao trong js
+    var d = 2;
+    var e = 3;
+    var f = d + e;
+    console.log(f);
+    // kieu du lieu trong js
+    var a = 1;
+    console.log(a);
+    var v = "phuong nam";
+    console.log(v);
+    var hienthi = false;
+    console.log(hienthi);
+    // undefined => khai bao ma khong xu dung
+    var n;
+    console.log(n);
+    // null => gia tri rong
+    var k = null;
+    console.log(k);
+    // kieu doi tuong 
+    var phuongNam = {
+        name: 'le nguyen phuong nam',
+        age: 24,
+        can: true
+    }
+    console.log(phuongNam);
+    // thay doi kieu doi tuong
+    var phuongNam2 = {
+        name: 'le nguyen phuong nam',
+        age: 24,
+        can: true
+    }
+    phuongNam2['can'] = false;
+    console.log(phuongNam2);
+    // khai bao mang 
+    var mang = [2, 4, 6];
+    console.log(mang);
+    // mang chua nhieu doi tuong
+    var trasua1 = {
+        tyle: 'tran chau duong den'
+    };
+    var trasua2 = {
+        tyle: 'cafe'
+    };
+    var trasua3 = {
+        tyle: 'hong tra'
+    };
+    var arrTraSua = [trasua1, trasua2, trasua3];
+    console.log(arrTraSua);
+    // lay ra 1 thuoc tinh element trong mang
+    console.log("thuoc tinh element trong mang: " + arrTraSua[0].tyle
+    );
+    // array luu tru 1 list cac phan tu giong nhau 
+    // them 1 phan tu vao mang
+    var trasua4 = {
+        tyle: 'special'
+    };
+    arrTraSua[3] = trasua4;
+    console.log(arrTraSua);
+    // khai bao 1 mang truong hoc 
+    var truongHoc = [
+        {
+            name: 'iuh',
+            address: 'Gò vấp',
+            sao: '4'
+        },
+        {
+            name: 'uef',
+            address: 'Tân Bình',
+            sao: '6'
+        }
+    ];
+    console.log(truongHoc);
+    // Arithmetic operators
+    var a = 2, b = 3, c = 4, d = 5, e = 6;
+    var ketQua, ketQua1, ketQua2;
+    ketQua = a - b + c * d;
+    ketQua1 = d / a;
+    ketQua2 = d % a;
+    console.log(ketQua);
+    console.log(ketQua1);
+    console.log(ketQua2);
+    // increment and decrement
+    // Assignment operators
+    var a, b, c;
+    a = b = c = 1;
+    a += b;
+    console.log(" ket qua : " + b, a);
+    // function 
+    function caculateTriangle(a, h) {
+        return console.log("ket qua : " + a * h / 2);
+    }
+    caculateTriangle(2, 2);
+</script>
+<p>Xin chào, phuong nam seven</p>
+<p>xin moi kiem tra Console.log</p>
